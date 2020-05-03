@@ -1,15 +1,45 @@
 body {
-  background-color: #40C4FF;
-  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(255, 255, 255);
 }
 
 h1 {
+  color: rgb(1, 43, 85);
+  font-family: 'Tangerine', sans-serif, Arial, Helvetica;
+  font-size: 5rem;
+  font-weight: 300;
+  margin: 4rem;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 3%;
+  text-shadow: 2px 2px 4px #aaa;
 }
 
-h4 {
-  text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
+section div {
+  font-weight: 400;
+  font-family: sans-serif, Arial, Helvetica;
+  font-size: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  margin: 8rem auto;
+  max-width: 300px;
+}
+
+.contact li {
+  flex: 1 1 auto;
+  list-style: none;
+  padding: 40 px;
+}
+
+.contact li a img {
+  background: rgba(1, 43, 85, 0.1);
+  border-radius: 19px;
+  height: 38px;
+  line-height: 38px;
+  max-height: 40px;
+  text-align: center;
+  width: 38px;
 }
